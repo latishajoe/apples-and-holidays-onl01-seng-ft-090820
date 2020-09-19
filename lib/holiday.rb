@@ -78,5 +78,5 @@ def all_holidays_with_bbq(holiday_hash)
     if items.include?("BBQ")
       holiday
     end
-  end
+  end.flatten.compact 
 end
